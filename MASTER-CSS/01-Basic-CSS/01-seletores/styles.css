@@ -1,0 +1,103 @@
+/* Selector universal */
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px 15px 0px 15px;
+    /* top right bottom left */
+}
+
+
+/* Selector de etiqueta */
+
+h1 {
+    background: burlywood;
+    color: rgb(97, 15, 15);
+    padding: 10px;
+}
+
+a {
+    font-size: 18px;
+    color: green;
+    text-decoration: none;
+}
+
+footer a {
+    color: red;
+}
+
+
+/* Selector de id */
+
+#description,
+#titulo {
+    border: 5px solid black;
+    padding: 15px;
+}
+
+#usuario form {
+    /* border: 3px solid blue; */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+/* #usuario form * {
+    display: block;
+} */
+
+#saudacao{
+    background-color: red;
+}
+
+#saudacao h1{
+    background-color: green;
+    color: yellow;
+    text-decoration: underline;
+}
+h1{
+    background-color: purple !important;  
+    /* esta opção não seria prioridade, pois o mais específico é prioritário. 
+    Neste caso #saudacao h1 seria mais específico e, portanto, prioritário.
+    Porém, quando colocamos !important a opçãp passa a ser prioritária */
+    /* Mesma prioridade, prevalece a última informada. */
+}
+
+/* Selector de classe */
+
+.paragrafo {
+    font-style: italic;
+    font-weight: 800;
+}
+
+
+/* Selector de atributo */
+
+input[type="text"] {
+    border: 3x solid saddlebrown;
+    margin-bottom: 15px;
+    /* padding: 10px; */
+    width: 300px;
+}
+
+input[type="submit"] {
+    background: green;
+    border: 4px solid rgb(89, 4, 4);
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+
+/* Selector filho */
+
+#menu a {
+    font-size: 35px;
+    text-decoration: none;
+    color: red;
+}
+
+#menu > li > ul > li> a{
+    color: rgb(0, 255, 255);
+}
