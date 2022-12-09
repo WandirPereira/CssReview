@@ -1,0 +1,33 @@
+@font-face{
+    font-family: Mansalva;  /*poderia ser qualquer nome */
+    src: url(fonts/Mansalva-Regular.ttf);
+}
+body {
+    background: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-style: italic; */
+    font-family: 'Mansalva', cursive;
+}
+
+h1{
+        /*cores*/
+        color: mediumpurple;
+}
+
+h3{
+    font-family:  'Mansalva', 'Courier New', Courier, monospace; 
+    color: Olive;
+}
+
+p {
+    font-family: 'Mansalva', "Comic Sans MS"; 
+    font-size: 2em;
+    font-weight: lighter;
+    color: #1E90FF
+}
+
+#paragrafo01{
+    font-family: 'Mansalva' , Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 1.5em;
+    font-weight: bold;
+}

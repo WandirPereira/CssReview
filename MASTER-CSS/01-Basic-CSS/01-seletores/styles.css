@@ -73,7 +73,7 @@ h1{
 /* Selector de atributo */
 
 input[type="text"] {
-    border: 3x solid saddlebrown;
+    border: 3px solid saddlebrown;
     margin-bottom: 15px;
     /* padding: 10px; */
     width: 300px;
