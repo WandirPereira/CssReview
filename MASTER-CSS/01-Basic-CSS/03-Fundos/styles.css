@@ -1,0 +1,44 @@
+@font-face{
+    font-family: Mansalva;  /*poderia ser qualquer nome */
+    src: url(fonts/Mansalva-Regular.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: burlywood;
+    background-image: url("img/148423.jpg");
+    background-repeat: repeat; 
+    background-attachment: fixed;  /*background não rola junto com o texto*/
+    /* background-repeat: no-repeat; */
+    background-size: 100% 100%;
+    /* //background-position: left bottom;  */
+    font-family: Mansalva;
+    
+}
+#caixa{
+    border: 0px solid black;
+    /* border: 0px ; */
+    padding: 0px;
+    background-color: rgb(103, 103, 112);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    /* font-family: "Open Sans";  */
+    background-image: url("img/139047.jpg");
+}
+h1{
+    padding: 0px;
+}
+h2{
+    color: white;
+    background: blue;
+}
+p{
+    font-size: 26px;
+    color: white;
+    text-align: justify;
+    padding: 40px;
+    text-indent: 60px;
+}

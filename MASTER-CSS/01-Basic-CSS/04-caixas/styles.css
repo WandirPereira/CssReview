@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* #caixa1, #caixa2{
+    width: 250px;
+    height: 250px;
+    background-color: lightblue;
+    border: 1px solid red;
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+} */
+.caixa{
+    display: block;
+    width: 250px;
+    height: 330px;
+    background-color: lightblue;
+    border: 1px solid red;
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+    float: left;
+}
+
+h1{
+    border: 1px solid;
+}
+
+p{
+    font-weight: bold;
+    text-align: justify;
+    font-size: 16px;
+    font-family: arial;
+    line-height: 20px;
+}
+.clearfix{
+    float:none;
+    clear: both;
+}
+
+#caixas{
+    max-width: 936px;
+    border: 1px solid;
+}
+
