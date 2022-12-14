@@ -49,3 +49,33 @@
 #menu ul li:hover a{
     color: white;
 }
+
+#conteudo{
+    width: 64%;
+    border: 1px solid green;
+    float: left;
+}
+
+#lateral{
+    float: left;
+    width: 35%;
+    border: 1px solid red;
+}
+
+#conteudo .caixa{
+    width: 40%;
+    height: 250px;
+    background-color: red;
+    border: 5px solid blue;
+    color: white;
+    float: left;
+    margin: 20px;
+    margin-left: 40px;
+}
+
+#conteudo > h1{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+    color: #444;
+}
