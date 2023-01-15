@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
+
 /* #caixa1, #caixa2{
     width: 250px;
     height: 250px;
@@ -10,7 +11,7 @@
     margin: 10px 10px 10px 10px;
     padding: 20px;
 } */
-.caixa{
+.caixa {
     display: block;
     width: 250px;
     height: 330px;
@@ -21,24 +22,24 @@
     float: left;
 }
 
-h1{
+h1 {
     border: 1px solid;
 }
 
-p{
+p {
     font-weight: bold;
     text-align: justify;
     font-size: 16px;
     font-family: arial;
     line-height: 20px;
 }
-.clearfix{
-    float:none;
+
+.clearfix {
+    float: none;
     clear: both;
 }
 
-#caixas{
+#caixas {
     max-width: 936px;
     border: 1px solid;
 }
-
