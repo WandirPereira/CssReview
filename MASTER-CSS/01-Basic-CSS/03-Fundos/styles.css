@@ -1,44 +1,69 @@
-@font-face{
-    font-family: Mansalva;  /*poderia ser qualquer nome */
+@font-face {
+    font-family: Mansalva;
+    /*poderia ser qualquer nome */
     src: url(fonts/Mansalva-Regular.ttf);
 }
-*{
+
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+body {
     background-color: burlywood;
     background-image: url("img/148423.jpg");
-    background-repeat: repeat; 
-    background-attachment: fixed;  /*background não rola junto com o texto*/
+    background-repeat: repeat;
+    background-attachment: fixed;
+    /*background não rola junto com o texto*/
     /* background-repeat: no-repeat; */
     background-size: 100% 100%;
     /* //background-position: left bottom;  */
     font-family: Mansalva;
-    
+
 }
-#caixa{
+
+#caixa {
     border: 0px solid black;
     /* border: 0px ; */
     padding: 0px;
     background-color: rgb(103, 103, 112);
     color: white;
+    /*cor do texto*/
     font-size: 40px;
+    /*tamanho da fonte do tet*/
     text-align: center;
+    /*Justificação do texto*/
     /* font-family: "Open Sans";  */
     background-image: url("img/139047.jpg");
+    line-height: 520px;
+    /*altura da linha*/
+    text-transform: uppercase;
+    vertical-align: bottom;
+
 }
-h1{
+
+h1 {
     padding: 0px;
 }
-h2{
+
+h2 {
     color: white;
     background: blue;
 }
-p{
+
+p {
     font-size: 26px;
     color: white;
     text-align: justify;
     padding: 40px;
-    text-indent: 60px;
+    text-indent: 160px;
+    /*avanço primeira linhga do parágrafo*/
+    line-height: 120px;
+    /*altura da linha*/
+    text-transform: uppercase;
+    /* text-decoration: underline;  overline or  line-through */
+    /* text-decoration: overline; */
+    text-decoration: line-through;
+    word-spacing: 40px;
+    letter-spacing: 15px;
 }
