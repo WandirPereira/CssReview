@@ -47,21 +47,23 @@
 
 #menu ul li:hover {
     background: rgb(224, 217, 217);
+    cursor: pointer;
 }
 
 #menu ul li:hover a {
     color: white;
+    cursor: pointer;
 }
 
 #conteudo {
-    width: 64%;
+    width: 70%;
     border: 1px solid green;
     float: left;
 }
 
 #lateral {
     float: left;
-    width: 35%;
+    width: 29%;
     border: 1px solid red;
 }
 
